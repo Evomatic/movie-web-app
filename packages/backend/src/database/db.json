@@ -1,7 +1,7 @@
 {
   "movies": [
     {
-      "movie_id": "86853328-49b9-412a-b890-5769d8d62334",
+      "movieId": "86853328-49b9-412a-b890-5769d8d62334",
       "Title": "Dune",
       "Year": "2021",
       "Rated": "PG-13",
@@ -42,7 +42,7 @@
       "favorite": false
     },
     {
-      "movie_id": "23ac1d84-a21c-4e38-8698-0472cb5ea1d9",
+      "movieId": "23ac1d84-a21c-4e38-8698-0472cb5ea1d9",
       "Title": "Barbie",
       "Year": "2023",
       "Rated": "PG-13",
@@ -83,7 +83,7 @@
       "favorite": false
     },
     {
-      "movie_id": "a6deb2e2-06bd-4046-95e6-9fd0c0797c1d",
+      "movieId": "a6deb2e2-06bd-4046-95e6-9fd0c0797c1d",
       "Title": "A Goofy Movie",
       "Year": "1995",
       "Rated": "G",
@@ -124,7 +124,7 @@
       "favorite": false
     },
     {
-      "movie_id": "6109865c-92e5-43b3-be1c-048d4306d6f5",
+      "movieId": "6109865c-92e5-43b3-be1c-048d4306d6f5",
       "Title": "Harry Potter and the Sorcerer's Stone",
       "Year": "2001",
       "Rated": "PG",
@@ -165,7 +165,7 @@
       "favorite": false
     },
     {
-      "movie_id": "93756242-456b-4212-9c58-d65db02b374f",
+      "movieId": "93756242-456b-4212-9c58-d65db02b374f",
       "Title": "Transformers",
       "Year": "2007",
       "Rated": "PG-13",
@@ -206,7 +206,7 @@
       "favorite": false
     },
     {
-      "movie_id": "737c3622-ecd1-44f9-bf37-748b30aad3be",
+      "movieId": "737c3622-ecd1-44f9-bf37-748b30aad3be",
       "Title": "Spider-Man",
       "Year": "2002",
       "Rated": "PG-13",
@@ -247,7 +247,7 @@
       "favorite": false
     },
     {
-      "movie_id": "c7aacaf9-a527-40e2-88f5-b2476f3da07c",
+      "movieId": "c7aacaf9-a527-40e2-88f5-b2476f3da07c",
       "Title": "Gran Turismo",
       "Year": "2023",
       "Rated": "PG-13",
@@ -280,7 +280,7 @@
       "favorite": false
     },
     {
-      "movie_id": "a41a3c2e-7c6d-4b4d-84e4-de1703916abe",
+      "movieId": "a41a3c2e-7c6d-4b4d-84e4-de1703916abe",
       "Title": "Toy Story",
       "Year": "1995",
       "Rated": "G",
@@ -321,7 +321,7 @@
       "favorite": false
     },
     {
-      "movie_id": "dfdbb0de-b477-4f7e-946e-67f05cdfdcdc",
+      "movieId": "dfdbb0de-b477-4f7e-946e-67f05cdfdcdc",
       "Title": "The Avengers",
       "Year": "2012",
       "Rated": "PG-13",
@@ -362,7 +362,7 @@
       "favorite": false
     },
     {
-      "movie_id": "dccd58ff-d07a-49f7-a196-1ac2bfcaf458",
+      "movieId": "dccd58ff-d07a-49f7-a196-1ac2bfcaf458",
       "Title": "Mean Girls",
       "Year": "2004",
       "Rated": "PG-13",
@@ -403,7 +403,7 @@
       "favorite": false
     },
     {
-      "movie_id": "5dff23f7-8fdf-494c-8573-bccf164a8f47",
+      "movieId": "5dff23f7-8fdf-494c-8573-bccf164a8f47",
       "Title": "Godzilla",
       "Year": "2014",
       "Rated": "PG-13",
@@ -444,7 +444,7 @@
       "favorite": false
     },
     {
-      "movie_id": "5dff23f7-8fdf-494c-8573-bccf164a8f47",
+      "movieId": "5dff23f7-8fdf-494c-8573-bccf164a8f47",
       "Title": "Spirited Away",
       "Year": "2001",
       "Rated": "PG",
@@ -485,7 +485,7 @@
       "favorite": false
     },
     {
-      "movie_id": "7787f4c9-94f9-4b14-97db-0bf0e71ed039",
+      "movieId": "7787f4c9-94f9-4b14-97db-0bf0e71ed039",
       "Title": "The Breakfast Club",
       "Year": "1985",
       "Rated": "R",
@@ -526,7 +526,7 @@
       "favorite": false
     },
     {
-      "movie_id": "bb3c0bb1-392b-4088-9ae9-3ff1847cbe01",
+      "movieId": "bb3c0bb1-392b-4088-9ae9-3ff1847cbe01",
       "Title": "Home Alone",
       "Year": "1990",
       "Rated": "PG",
@@ -567,7 +567,7 @@
       "favorite": false
     },
     {
-      "movie_id": "4961b172-89d9-4149-ba33-92b2c038a1ac",
+      "movieId": "4961b172-89d9-4149-ba33-92b2c038a1ac",
       "Title": "The Matrix",
       "Year": "1999",
       "Rated": "R",
@@ -608,7 +608,7 @@
       "favorite": false
     },
     {
-      "movie_id": "bbc237f2-773b-4852-8b8d-21c0c2b9def9",
+      "movieId": "bbc237f2-773b-4852-8b8d-21c0c2b9def9",
       "Title": "Back to the Future",
       "Year": "1985",
       "Rated": "PG",
@@ -649,7 +649,7 @@
       "favorite": false
     },
     {
-      "movie_id": "0c70cbef-2314-4bf2-add5-f4bd1414d3d8",
+      "movieId": "0c70cbef-2314-4bf2-add5-f4bd1414d3d8",
       "Title": "La La Land",
       "Year": "2016",
       "Rated": "PG-13",
@@ -690,7 +690,7 @@
       "favorite": false
     },
     {
-      "movie_id": "76710f76-a05b-4a4c-8e8e-d1dfecb88b68",
+      "movieId": "76710f76-a05b-4a4c-8e8e-d1dfecb88b68",
       "Title": "Jurassic Park",
       "Year": "1993",
       "Rated": "PG-13",
@@ -731,7 +731,7 @@
       "favorite": false
     },
     {
-      "movie_id": "a03f703b-2ac7-4d9b-9fe0-374e8d8fe6d7",
+      "movieId": "a03f703b-2ac7-4d9b-9fe0-374e8d8fe6d7",
       "Title": "Matilda",
       "Year": "1996",
       "Rated": "PG",
@@ -772,7 +772,7 @@
       "favorite": false
     },
     {
-      "movie_id": "27202a00-df69-47a5-974c-5dd95edd5d0e",
+      "movieId": "27202a00-df69-47a5-974c-5dd95edd5d0e",
       "Title": "Footloose",
       "Year": "1984",
       "Rated": "PG",
@@ -815,15 +815,15 @@
   ],
   "users": [
     {
-      "user_id": "08150d25-6607-4d64-a948-08da7b92579d",
+      "userId": "08150d25-6607-4d64-a948-08da7b92579d",
       "email": "evantrujillo30@gmail.com",
       "password": "a6dcde7eceb689142f21a1e30b5fdb868ec4cd25d5537d67ac7e8c7816b0e862"
     }
   ],
   "favorites": [
     {
-      "user_id": "08150d25-6607-4d64-a948-08da7b92579d",
-      "movie_id": "76710f76-a05b-4a4c-8e8e-d1dfecb88b68"
+      "userId": "08150d25-6607-4d64-a948-08da7b92579d",
+      "movieId": "76710f76-a05b-4a4c-8e8e-d1dfecb88b68"
     }
   ]
 }
