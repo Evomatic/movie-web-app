@@ -34,25 +34,20 @@ services:
       ports:
         - "${BACKEND_PORT}:${BACKEND_PORT}"
       depends_on:
-        - bp-pg-db
+        - postgres
       links:
-        - bp-pg-db
+        - postgres
   # PostgreSQL database container
-  bp-pg-db:
-      image: postgres:16-alpine
+  postgres:
+      image: postgres
       restart: always
-      container_name: bp-pg-db
-      env_file:
-        - .env
+      container_name: postgres
       environment:
-        POSTGRES_PASSWORD: ${DB_PASSWORD}
-        PGDATA: /var/lib/postgresql/data
         POSTGRES_USER: ${DB_USER}
+        POSTGRES_PASSWORD: ${DB_PASSWORD}
         POSTGRES_DB: ${DB_NAME}
       ports:
-        - "${DB_PORT}:${DB_PORT}"
-      volumes:
-        - pgdata:/var/lib/postgresql/data
+        - 6500:5432
       networks:
         - bp-network
 
