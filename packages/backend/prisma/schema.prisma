@@ -1,9 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
-// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -13,14 +7,14 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Users {
+model users {
   userId    String      @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
   email     String      @unique
   password  String      @unique
-  Favorites Favorites[]
+  favorites favorites[]
 }
 
-model Movies {
+model movies {
   movieId    String      @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
   title      String
   year       String
@@ -46,14 +40,14 @@ model Movies {
   website    String
   response   String
   favorite   Boolean
-  Favorites  Favorites[]
+  favorites  favorites[]
 }
 
-model Favorites {
+model favorites {
   userId  String @db.Uuid
-  user    Users  @relation(fields: [userId], references: [userId])
   movieId String @db.Uuid
-  movies  Movies @relation(fields: [movieId], references: [movieId])
+  movies  movies @relation(fields: [movieId], references: [movieId])
+  user    users  @relation(fields: [userId], references: [userId])
 
   @@id([userId, movieId])
 }
