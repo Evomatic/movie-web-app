@@ -2,9 +2,19 @@ import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
+import { PrismaModule } from './prisma/prisma.module';
+import { MoviesModule } from './movies/movies.module';
+import { UsersModule } from './users/users.module';
+import { FavoritesModule } from './favorites/favorites.module';
 
 @Module({
-  imports: [ConfigModule.forRoot()],
+  imports: [
+    ConfigModule.forRoot(),
+    PrismaModule,
+    MoviesModule,
+    UsersModule,
+    FavoritesModule,
+  ],
   controllers: [AppController],
   providers: [AppService],
 })
