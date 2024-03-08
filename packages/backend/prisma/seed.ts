@@ -1,37 +1,63 @@
 import { PrismaClient } from '@prisma/client';
+import * as db from '../src/database/db.json';
 const prisma = new PrismaClient();
 
-async function seed() {
-  const moviesData = require('../src/database/db.json').movies;
-  console.log(moviesData);
+type MoviesData = {
+  title: string;
+  year: string;
+  rated: string;
+  released: string;
+  runtime: string;
+  genre: string;
+  director: string;
+  writer: string;
+  actors: string;
+  plot: string;
+  language: string;
+  country: string;
+  awards: string;
+  poster: string;
+  ratings: { source: string; value: string }[];
+  metascore: string;
+  imdbRating: string;
+  imdbVotes: string;
+  type: string;
+  DVD: string;
+  boxOffice: string;
+  production: string;
+  website: string;
+  response: string;
+  favorite: boolean;
+};
 
+async function main() {
+  const moviesData = db.movies as MoviesData[];
   for (const movieData of moviesData) {
-    await prisma.movies.create({
+    await prisma.movie.create({
       data: {
-        movieId: movieData.movieId,
-        title: movieData.Title,
-        year: movieData.Year,
-        rated: movieData.Rated,
-        released: movieData.Released,
-        runtime: movieData.Runtime,
-        genre: movieData.Genre,
-        director: movieData.Director,
-        writer: movieData.Writer,
-        actors: movieData.Actors,
-        plot: movieData.Plot,
-        language: movieData.Language,
-        country: movieData.Country,
-        awards: movieData.Awards,
-        poster: movieData.Poster,
-        metascore: movieData.Metascore,
+        title: movieData.title,
+        year: movieData.year,
+        rated: movieData.rated,
+        released: movieData.released,
+        runtime: movieData.runtime,
+        genre: movieData.genre,
+        director: movieData.director,
+        writer: movieData.writer,
+        actors: movieData.actors,
+        plot: movieData.plot,
+        language: movieData.language,
+        country: movieData.country,
+        awards: movieData.awards,
+        poster: movieData.poster,
+        metascore: movieData.metascore,
         imdbRating: movieData.imdbRating,
         imdbVotes: movieData.imdbVotes,
-        type: movieData.Type,
+        type: movieData.type,
         dvd: movieData.DVD,
-        boxOffice: movieData.BoxOffice,
-        production: movieData.Production,
-        website: movieData.Website,
-        response: movieData.Response,
+        boxOffice: movieData.boxOffice,
+        production: movieData.production,
+        website: movieData.website,
+        response: movieData.response,
         favorite: movieData.favorite,
       },
     });
@@ -40,10 +66,15 @@ async function seed() {
   console.log('Data seeding completed.');
 }
 
-seed()
-  .catch((error) => {
-    throw error;
-  })
-  .finally(async () => {
+main()
+  .then(async () => {
     await prisma.$disconnect();
+  })
+
+  .catch(async (e) => {
+    console.error(e);
+
+    await prisma.$disconnect();
+
+    process.exit(1);
   });

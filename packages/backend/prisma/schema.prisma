@@ -7,15 +7,15 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model users {
-  userId    String      @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
-  email     String      @unique
-  password  String      @unique
-  favorites favorites[]
+model user {
+  userId    String     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  email     String     @unique
+  password  String     @unique
+  favorites favorite[]
 }
 
-model movies {
-  movieId    String      @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+model movie {
+  movieId    String     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
   title      String
   year       String
   rated      String
@@ -33,6 +33,7 @@ model movies {
   ratings    Json[]
   metascore  String
   imdbRating String
+  imdbVotes  String
   type       String
   dvd        String
   boxOffice  String
@@ -40,14 +41,14 @@ model movies {
   website    String
   response   String
   favorite   Boolean
-  favorites  favorites[]
+  favorites  favorite[]
 }
 
-model favorites {
+model favorite {
   userId  String @db.Uuid
   movieId String @db.Uuid
-  movies  movies @relation(fields: [movieId], references: [movieId])
-  user    users  @relation(fields: [userId], references: [userId])
+  movies  movie  @relation(fields: [movieId], references: [movieId])
+  user    user   @relation(fields: [userId], references: [userId])
 
   @@id([userId, movieId])
 }
