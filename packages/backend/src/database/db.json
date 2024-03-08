@@ -1,815 +1,795 @@
 {
   "movies": [
     {
-      "movieId": "86853328-49b9-412a-b890-5769d8d62334",
-      "Title": "Dune",
-      "Year": "2021",
-      "Rated": "PG-13",
-      "Released": "22 Oct 2021",
-      "Runtime": "155 min",
-      "Genre": "Action, Adventure, Drama",
-      "Director": "Denis Villeneuve",
-      "Writer": "Jon Spaihts, Denis Villeneuve, Eric Roth",
-      "Actors": "Timothée Chalamet, Rebecca Ferguson, Zendaya",
-      "Plot": "A noble family becomes embroiled in a war for control over the galaxy's most valuable asset while its heir becomes troubled by visions of a dark future.",
-      "Language": "English, Mandarin",
-      "Country": "United States, Canada",
-      "Awards": "Won 6 Oscars. 173 wins & 294 nominations total",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMDQ0NjgyN2YtNWViNS00YjA3LTkxNDktYzFkZTExZGMxZDkxXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
-      "Ratings": [
+      "title": "Dune",
+      "year": "2021",
+      "rated": "PG-13",
+      "released": "22 Oct 2021",
+      "runtime": "155 min",
+      "genre": "Action, Adventure, Drama",
+      "director": "Denis Villeneuve",
+      "writer": "Jon Spaihts, Denis Villeneuve, Eric Roth",
+      "actors": "Timothée Chalamet, Rebecca Ferguson, Zendaya",
+      "plot": "A noble family becomes embroiled in a war for control over the galaxy's most valuable asset while its heir becomes troubled by visions of a dark future.",
+      "language": "English, Mandarin",
+      "country": "United States, Canada",
+      "awards": "Won 6 Oscars. 173 wins & 294 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDQ0NjgyN2YtNWViNS00YjA3LTkxNDktYzFkZTExZGMxZDkxXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "8.0/10"
+          "source": "Internet Movie Database",
+          "value": "8.0/10"
         },
         {
-          "Source": "Rotten Tomatoes",
-          "Value": "83%"
+          "source": "Rotten Tomatoes",
+          "value": "83%"
         },
         {
-          "Source": "Metacritic",
-          "Value": "74/100"
+          "source": "Metacritic",
+          "value": "74/100"
         }
       ],
-      "Metascore": "74",
+      "metascore": "74",
       "imdbRating": "8.0",
       "imdbVotes": "772,111",
-      "Type": "movie",
+      "type": "movie",
       "DVD": "22 Oct 2021",
-      "BoxOffice": "$108,897,830",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True",
+      "boxOffice": "$108,897,830",
+      "production": "N/A",
+      "website": "N/A",
+      "response": "True",
       "favorite": false
     },
     {
-      "movieId": "23ac1d84-a21c-4e38-8698-0472cb5ea1d9",
-      "Title": "Barbie",
-      "Year": "2023",
-      "Rated": "PG-13",
-      "Released": "21 Jul 2023",
-      "Runtime": "114 min",
-      "Genre": "Adventure, Comedy, Fantasy",
-      "Director": "Greta Gerwig",
-      "Writer": "Greta Gerwig, Noah Baumbach",
-      "Actors": "Margot Robbie, Ryan Gosling, Issa Rae",
-      "Plot": "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans.",
-      "Language": "English, Spanish",
-      "Country": "United States, United Kingdom",
-      "Awards": "Nominated for 8 Oscars. 159 wins & 417 nominations total",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BNjU3N2QxNzYtMjk1NC00MTc4LTk1NTQtMmUxNTljM2I0NDA5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
-      "Ratings": [
+      "title": "Barbie",
+      "year": "2023",
+      "rated": "PG-13",
+      "released": "21 Jul 2023",
+      "runtime": "114 min",
+      "genre": "Adventure, Comedy, Fantasy",
+      "director": "Greta Gerwig",
+      "writer": "Greta Gerwig, Noah Baumbach",
+      "actors": "Margot Robbie, Ryan Gosling, Issa Rae",
+      "plot": "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans.",
+      "language": "English, Spanish",
+      "country": "United States, United Kingdom",
+      "awards": "Nominated for 8 Oscars. 159 wins & 417 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjU3N2QxNzYtMjk1NC00MTc4LTk1NTQtMmUxNTljM2I0NDA5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "6.9/10"
+          "source": "Internet Movie Database",
+          "value": "6.9/10"
         },
         {
-          "Source": "Rotten Tomatoes",
-          "Value": "88%"
+          "source": "Rotten Tomatoes",
+          "value": "88%"
         },
         {
-          "Source": "Metacritic",
-          "Value": "80/100"
+          "source": "Metacritic",
+          "value": "80/100"
         }
       ],
-      "Metascore": "80",
+      "metascore": "80",
       "imdbRating": "6.9",
       "imdbVotes": "495,309",
-      "Type": "movie",
+      "type": "movie",
       "DVD": "12 Sep 2023",
-      "BoxOffice": "$636,238,421",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True",
+      "boxOffice": "$636,238,421",
+      "production": "N/A",
+      "website": "N/A",
+      "response": "True",
       "favorite": false
     },
     {
-      "movieId": "a6deb2e2-06bd-4046-95e6-9fd0c0797c1d",
-      "Title": "A Goofy Movie",
-      "Year": "1995",
-      "Rated": "G",
-      "Released": "07 Apr 1995",
-      "Runtime": "78 min",
-      "Genre": "Animation, Adventure, Comedy",
-      "Director": "Kevin Lima",
-      "Writer": "Jymn Magon, Chris Matheson, Brian Pimental",
-      "Actors": "Bill Farmer, Jason Marsden, Jim Cummings",
-      "Plot": "When Max makes a preposterous promise to a girl he has a crush on, his chances to fulfilling it seem hopeless when he is dragged onto a cross-country trip with his embarrassing father, Goofy.",
-      "Language": "English, Russian",
-      "Country": "United States, Australia, France, Canada, Spain",
-      "Awards": "5 nominations",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BZDczYjU4MDMtY2RjMy00Y2UyLWE2MmMtZjliYWUwNzQ3YjExXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-      "Ratings": [
+      "title": "A Goofy Movie",
+      "year": "1995",
+      "rated": "G",
+      "released": "07 Apr 1995",
+      "runtime": "78 min",
+      "genre": "Animation, Adventure, Comedy",
+      "director": "Kevin Lima",
+      "writer": "Jymn Magon, Chris Matheson, Brian Pimental",
+      "actors": "Bill Farmer, Jason Marsden, Jim Cummings",
+      "plot": "When Max makes a preposterous promise to a girl he has a crush on, his chances to fulfilling it seem hopeless when he is dragged onto a cross-country trip with his embarrassing father, Goofy.",
+      "language": "English, Russian",
+      "country": "United States, Australia, France, Canada, Spain",
+      "awards": "5 nominations",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZDczYjU4MDMtY2RjMy00Y2UyLWE2MmMtZjliYWUwNzQ3YjExXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "6.9/10"
+          "source": "Internet Movie Database",
+          "value": "6.9/10"
         },
         {
-          "Source": "Rotten Tomatoes",
-          "Value": "59%"
+          "source": "Rotten Tomatoes",
+          "value": "59%"
         },
         {
-          "Source": "Metacritic",
-          "Value": "53/100"
+          "source": "Metacritic",
+          "value": "53/100"
         }
       ],
-      "Metascore": "53",
+      "metascore": "53",
       "imdbRating": "6.9",
       "imdbVotes": "62,033",
-      "Type": "movie",
+      "type": "movie",
       "DVD": "01 Jan 2014",
-      "BoxOffice": "$35,348,597",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True",
+      "boxOffice": "$35,348,597",
+      "production": "N/A",
+      "website": "N/A",
+      "response": "True",
       "favorite": false
     },
     {
-      "movieId": "6109865c-92e5-43b3-be1c-048d4306d6f5",
-      "Title": "Harry Potter and the Sorcerer's Stone",
-      "Year": "2001",
-      "Rated": "PG",
-      "Released": "16 Nov 2001",
-      "Runtime": "152 min",
-      "Genre": "Adventure, Family, Fantasy",
-      "Director": "Chris Columbus",
-      "Writer": "J.K. Rowling, Steve Kloves",
-      "Actors": "Daniel Radcliffe, Rupert Grint, Richard Harris",
-      "Plot": "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
-      "Language": "English, Latin",
-      "Country": "United Kingdom, United States",
-      "Awards": "Nominated for 3 Oscars. 20 wins & 74 nominations total",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BNmQ0ODBhMjUtNDRhOC00MGQzLTk5MTAtZDliODg5NmU5MjZhXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg",
-      "Ratings": [
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "year": "2001",
+      "rated": "PG",
+      "released": "16 Nov 2001",
+      "runtime": "152 min",
+      "genre": "Adventure, Family, Fantasy",
+      "director": "Chris Columbus",
+      "writer": "J.K. Rowling, Steve Kloves",
+      "actors": "Daniel Radcliffe, Rupert Grint, Richard Harris",
+      "plot": "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
+      "language": "English, Latin",
+      "country": "United Kingdom, United States",
+      "awards": "Nominated for 3 Oscars. 20 wins & 74 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNmQ0ODBhMjUtNDRhOC00MGQzLTk5MTAtZDliODg5NmU5MjZhXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "7.6/10"
+          "source": "Internet Movie Database",
+          "value": "7.6/10"
         },
         {
-          "Source": "Rotten Tomatoes",
-          "Value": "81%"
+          "source": "Rotten Tomatoes",
+          "value": "81%"
         },
         {
-          "Source": "Metacritic",
-          "Value": "65/100"
+          "source": "Metacritic",
+          "value": "65/100"
         }
       ],
-      "Metascore": "65",
+      "metascore": "65",
       "imdbRating": "7.6",
       "imdbVotes": "847,177",
-      "Type": "movie",
+      "type": "movie",
       "DVD": "16 Dec 2012",
-      "BoxOffice": "$318,886,962",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True",
+      "boxOffice": "$318,886,962",
+      "production": "N/A",
+      "website": "N/A",
+      "response": "True",
       "favorite": false
     },
     {
-      "movieId": "93756242-456b-4212-9c58-d65db02b374f",
-      "Title": "Transformers",
-      "Year": "2007",
-      "Rated": "PG-13",
-      "Released": "03 Jul 2007",
-      "Runtime": "144 min",
-      "Genre": "Action, Adventure, Sci-Fi",
-      "Director": "Michael Bay",
-      "Writer": "Roberto Orci, Alex Kurtzman, John Rogers",
-      "Actors": "Shia LaBeouf, Megan Fox, Josh Duhamel",
-      "Plot": "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager.",
-      "Language": "English, Spanish",
-      "Country": "United States",
-      "Awards": "Nominated for 3 Oscars. 25 wins & 50 nominations total",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BNWI1NjkxM2MtOTU4My00YzQ5LTliNGMtNmFlM2U5NWM3MDY1XkEyXkFqcGdeQXVyNTUyMzE4Mzg@._V1_SX300.jpg",
-      "Ratings": [
+      "title": "Transformers",
+      "year": "2007",
+      "rated": "PG-13",
+      "released": "03 Jul 2007",
+      "runtime": "144 min",
+      "genre": "Action, Adventure, Sci-Fi",
+      "director": "Michael Bay",
+      "writer": "Roberto Orci, Alex Kurtzman, John Rogers",
+      "actors": "Shia LaBeouf, Megan Fox, Josh Duhamel",
+      "plot": "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager.",
+      "language": "English, Spanish",
+      "country": "United States",
+      "awards": "Nominated for 3 Oscars. 25 wins & 50 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNWI1NjkxM2MtOTU4My00YzQ5LTliNGMtNmFlM2U5NWM3MDY1XkEyXkFqcGdeQXVyNTUyMzE4Mzg@._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "7.0/10"
+          "source": "Internet Movie Database",
+          "value": "7.0/10"
         },
         {
-          "Source": "Rotten Tomatoes",
-          "Value": "57%"
+          "source": "Rotten Tomatoes",
+          "value": "57%"
         },
         {
-          "Source": "Metacritic",
-          "Value": "61/100"
+          "source": "Metacritic",
+          "value": "61/100"
         }
       ],
-      "Metascore": "61",
+      "metascore": "61",
       "imdbRating": "7.0",
       "imdbVotes": "670,074",
-      "Type": "movie",
+      "type": "movie",
       "DVD": "01 Feb 2011",
-      "BoxOffice": "$319,246,193",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True",
+      "boxOffice": "$319,246,193",
+      "production": "N/A",
+      "website": "N/A",
+      "response": "True",
       "favorite": false
     },
     {
-      "movieId": "737c3622-ecd1-44f9-bf37-748b30aad3be",
-      "Title": "Spider-Man",
-      "Year": "2002",
-      "Rated": "PG-13",
-      "Released": "03 May 2002",
-      "Runtime": "121 min",
-      "Genre": "Action, Adventure, Sci-Fi",
-      "Director": "Sam Raimi",
-      "Writer": "Stan Lee, Steve Ditko, David Koepp",
-      "Actors": "Tobey Maguire, Kirsten Dunst, Willem Dafoe",
-      "Plot": "After being bitten by a genetically-modified spider, a shy teenager gains spider-like abilities that he uses to fight injustice as a masked superhero and face a vengeful enemy.",
-      "Language": "English",
-      "Country": "United States",
-      "Awards": "Nominated for 2 Oscars. 17 wins & 65 nominations total",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BZDEyN2NhMjgtMjdhNi00MmNlLWE5YTgtZGE4MzNjMTRlMGEwXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg",
-      "Ratings": [
+      "title": "Spider-Man",
+      "year": "2002",
+      "rated": "PG-13",
+      "released": "03 May 2002",
+      "runtime": "121 min",
+      "genre": "Action, Adventure, Sci-Fi",
+      "director": "Sam Raimi",
+      "writer": "Stan Lee, Steve Ditko, David Koepp",
+      "actors": "Tobey Maguire, Kirsten Dunst, Willem Dafoe",
+      "plot": "After being bitten by a genetically-modified spider, a shy teenager gains spider-like abilities that he uses to fight injustice as a masked superhero and face a vengeful enemy.",
+      "language": "English",
+      "country": "United States",
+      "awards": "Nominated for 2 Oscars. 17 wins & 65 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZDEyN2NhMjgtMjdhNi00MmNlLWE5YTgtZGE4MzNjMTRlMGEwXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "7.4/10"
+          "source": "Internet Movie Database",
+          "value": "7.4/10"
         },
         {
-          "Source": "Rotten Tomatoes",
-          "Value": "90%"
+          "source": "Rotten Tomatoes",
+          "value": "90%"
         },
         {
-          "Source": "Metacritic",
-          "Value": "73/100"
+          "source": "Metacritic",
+          "value": "73/100"
         }
       ],
-      "Metascore": "73",
+      "metascore": "73",
       "imdbRating": "7.4",
       "imdbVotes": "869,515",
-      "Type": "movie",
+      "type": "movie",
       "DVD": "25 Apr 2013",
-      "BoxOffice": "$407,022,860",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True",
+      "boxOffice": "$407,022,860",
+      "production": "N/A",
+      "website": "N/A",
+      "response": "True",
       "favorite": false
     },
     {
-      "movieId": "c7aacaf9-a527-40e2-88f5-b2476f3da07c",
-      "Title": "Gran Turismo",
-      "Year": "2023",
-      "Rated": "PG-13",
-      "Released": "25 Aug 2023",
-      "Runtime": "134 min",
-      "Genre": "Action, Adventure, Drama",
-      "Director": "Neill Blomkamp",
-      "Writer": "Jason Hall, Zach Baylin, Alex Tse",
-      "Actors": "David Harbour, Orlando Bloom, Archie Madekwe",
-      "Plot": "Based on the unbelievable, inspiring true story of a team of underdogs - a struggling, working-class gamer, a failed former race car driver, and an idealistic motorsport exec - who risk it all to take on the most elite sport in th...",
-      "Language": "English",
-      "Country": "United States, Japan",
-      "Awards": "3 nominations",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMTI1YjFmN2UtOWZhOC00MjkwLTg2ZjgtNDQ5NDQ3YWNmNGRkXkEyXkFqcGdeQXVyMTAxNzQ1NzI@._V1_SX300.jpg",
-      "Ratings": [
+      "title": "Gran Turismo",
+      "year": "2023",
+      "rated": "PG-13",
+      "released": "25 Aug 2023",
+      "runtime": "134 min",
+      "genre": "Action, Adventure, Drama",
+      "director": "Neill Blomkamp",
+      "writer": "Jason Hall, Zach Baylin, Alex Tse",
+      "actors": "David Harbour, Orlando Bloom, Archie Madekwe",
+      "plot": "Based on the unbelievable, inspiring true story of a team of underdogs - a struggling, working-class gamer, a failed former race car driver, and an idealistic motorsport exec - who risk it all to take on the most elite sport in th...",
+      "language": "English",
+      "country": "United States, Japan",
+      "awards": "3 nominations",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTI1YjFmN2UtOWZhOC00MjkwLTg2ZjgtNDQ5NDQ3YWNmNGRkXkEyXkFqcGdeQXVyMTAxNzQ1NzI@._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "7.2/10"
+          "source": "Internet Movie Database",
+          "value": "7.2/10"
         }
       ],
-      "Metascore": "N/A",
+      "metascore": "N/A",
       "imdbRating": "7.2",
       "imdbVotes": "89,302",
-      "Type": "movie",
+      "type": "movie",
       "DVD": "N/A",
-      "BoxOffice": "$44,428,554",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True",
+      "boxOffice": "$44,428,554",
+      "production": "N/A",
+      "website": "N/A",
+      "response": "True",
       "favorite": false
     },
     {
-      "movieId": "a41a3c2e-7c6d-4b4d-84e4-de1703916abe",
-      "Title": "Toy Story",
-      "Year": "1995",
-      "Rated": "G",
-      "Released": "22 Nov 1995",
-      "Runtime": "81 min",
-      "Genre": "Animation, Adventure, Comedy",
-      "Director": "John Lasseter",
-      "Writer": "John Lasseter, Pete Docter, Andrew Stanton",
-      "Actors": "Tom Hanks, Tim Allen, Don Rickles",
-      "Plot": "A cowboy doll is profoundly threatened and jealous when a new spaceman action figure supplants him as top toy in a boy's bedroom.",
-      "Language": "English, Russian, Ukrainian",
-      "Country": "United States, Japan",
-      "Awards": "Nominated for 3 Oscars. 29 wins & 23 nominations total",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1_SX300.jpg",
-      "Ratings": [
+      "title": "Toy Story",
+      "year": "1995",
+      "rated": "G",
+      "released": "22 Nov 1995",
+      "runtime": "81 min",
+      "genre": "Animation, Adventure, Comedy",
+      "director": "John Lasseter",
+      "writer": "John Lasseter, Pete Docter, Andrew Stanton",
+      "actors": "Tom Hanks, Tim Allen, Don Rickles",
+      "plot": "A cowboy doll is profoundly threatened and jealous when a new spaceman action figure supplants him as top toy in a boy's bedroom.",
+      "language": "English, Russian, Ukrainian",
+      "country": "United States, Japan",
+      "awards": "Nominated for 3 Oscars. 29 wins & 23 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "8.3/10"
+          "source": "Internet Movie Database",
+          "value": "8.3/10"
         },
         {
-          "Source": "Rotten Tomatoes",
-          "Value": "100%"
+          "source": "Rotten Tomatoes",
+          "value": "100%"
         },
         {
-          "Source": "Metacritic",
-          "Value": "96/100"
+          "source": "Metacritic",
+          "value": "96/100"
         }
       ],
-      "Metascore": "96",
+      "metascore": "96",
       "imdbRating": "8.3",
       "imdbVotes": "1,057,356",
-      "Type": "movie",
+      "type": "movie",
       "DVD": "01 Jan 2014",
-      "BoxOffice": "$223,225,679",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True",
+      "boxOffice": "$223,225,679",
+      "production": "N/A",
+      "website": "N/A",
+      "response": "True",
       "favorite": false
     },
     {
-      "movieId": "dfdbb0de-b477-4f7e-946e-67f05cdfdcdc",
-      "Title": "The Avengers",
-      "Year": "2012",
-      "Rated": "PG-13",
-      "Released": "04 May 2012",
-      "Runtime": "143 min",
-      "Genre": "Action, Sci-Fi",
-      "Director": "Joss Whedon",
-      "Writer": "Joss Whedon, Zak Penn",
-      "Actors": "Robert Downey Jr., Chris Evans, Scarlett Johansson",
-      "Plot": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
-      "Language": "English, Russian",
-      "Country": "United States",
-      "Awards": "Nominated for 1 Oscar. 38 wins & 81 nominations total",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-      "Ratings": [
+      "title": "The Avengers",
+      "year": "2012",
+      "rated": "PG-13",
+      "released": "04 May 2012",
+      "runtime": "143 min",
+      "genre": "Action, Sci-Fi",
+      "director": "Joss Whedon",
+      "writer": "Joss Whedon, Zak Penn",
+      "actors": "Robert Downey Jr., Chris Evans, Scarlett Johansson",
+      "plot": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
+      "language": "English, Russian",
+      "country": "United States",
+      "awards": "Nominated for 1 Oscar. 38 wins & 81 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "8.0/10"
+          "source": "Internet Movie Database",
+          "value": "8.0/10"
         },
         {
-          "Source": "Rotten Tomatoes",
-          "Value": "91%"
+          "source": "Rotten Tomatoes",
+          "value": "91%"
         },
         {
-          "Source": "Metacritic",
-          "Value": "69/100"
+          "source": "Metacritic",
+          "value": "69/100"
         }
       ],
-      "Metascore": "69",
+      "metascore": "69",
       "imdbRating": "8.0",
       "imdbVotes": "1,449,383",
-      "Type": "movie",
+      "type": "movie",
       "DVD": "22 Jun 2014",
-      "BoxOffice": "$623,357,910",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True",
+      "boxOffice": "$623,357,910",
+      "production": "N/A",
+      "website": "N/A",
+      "response": "True",
       "favorite": false
     },
     {
-      "movieId": "dccd58ff-d07a-49f7-a196-1ac2bfcaf458",
-      "Title": "Mean Girls",
-      "Year": "2004",
-      "Rated": "PG-13",
-      "Released": "30 Apr 2004",
-      "Runtime": "97 min",
-      "Genre": "Comedy",
-      "Director": "Mark Waters",
-      "Writer": "Rosalind Wiseman, Tina Fey",
-      "Actors": "Lindsay Lohan, Jonathan Bennett, Rachel McAdams",
-      "Plot": "Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George.",
-      "Language": "English, German, Vietnamese, Swahili",
-      "Country": "United States, Canada",
-      "Awards": "7 wins & 25 nominations",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMjE1MDQ4MjI1OV5BMl5BanBnXkFtZTcwNzcwODAzMw@@._V1_SX300.jpg",
-      "Ratings": [
+      "title": "Mean Girls",
+      "year": "2004",
+      "rated": "PG-13",
+      "released": "30 Apr 2004",
+      "runtime": "97 min",
+      "genre": "Comedy",
+      "director": "Mark Waters",
+      "writer": "Rosalind Wiseman, Tina Fey",
+      "actors": "Lindsay Lohan, Jonathan Bennett, Rachel McAdams",
+      "plot": "Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George.",
+      "language": "English, German, Vietnamese, Swahili",
+      "country": "United States, Canada",
+      "awards": "7 wins & 25 nominations",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjE1MDQ4MjI1OV5BMl5BanBnXkFtZTcwNzcwODAzMw@@._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "7.1/10"
+          "source": "Internet Movie Database",
+          "value": "7.1/10"
         },
         {
-          "Source": "Rotten Tomatoes",
-          "Value": "84%"
+          "source": "Rotten Tomatoes",
+          "value": "84%"
         },
         {
-          "Source": "Metacritic",
-          "Value": "66/100"
+          "source": "Metacritic",
+          "value": "66/100"
         }
       ],
-      "Metascore": "66",
+      "metascore": "66",
       "imdbRating": "7.1",
       "imdbVotes": "430,077",
-      "Type": "movie",
+      "type": "movie",
       "DVD": "01 Aug 2013",
-      "BoxOffice": "$86,058,055",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True",
+      "boxOffice": "$86,058,055",
+      "production": "N/A",
+      "website": "N/A",
+      "response": "True",
       "favorite": false
     },
     {
-      "movieId": "5dff23f7-8fdf-494c-8573-bccf164a8f47",
-      "Title": "Godzilla",
-      "Year": "2014",
-      "Rated": "PG-13",
-      "Released": "16 May 2014",
-      "Runtime": "123 min",
-      "Genre": "Action, Adventure, Sci-Fi",
-      "Director": "Gareth Edwards",
-      "Writer": "Ishirô Honda, Takeo Murata, Shigeru Kayama",
-      "Actors": "Aaron Taylor-Johnson, Elizabeth Olsen, Bryan Cranston",
-      "Plot": "The world is beset by the appearance of monstrous creatures, but one of them may be the only one who can save humanity.",
-      "Language": "English, Japanese",
-      "Country": "United States, Japan",
-      "Awards": "7 wins & 31 nominations",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BZDFmYTM4NzAtNWM0ZC00MGJlLWEyYzQtYzA3ZTFiNzc1YjllXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_SX300.jpg",
-      "Ratings": [
+      "title": "Godzilla",
+      "year": "2014",
+      "rated": "PG-13",
+      "released": "16 May 2014",
+      "runtime": "123 min",
+      "genre": "Action, Adventure, Sci-Fi",
+      "director": "Gareth Edwards",
+      "writer": "Ishirô Honda, Takeo Murata, Shigeru Kayama",
+      "actors": "Aaron Taylor-Johnson, Elizabeth Olsen, Bryan Cranston",
+      "plot": "The world is beset by the appearance of monstrous creatures, but one of them may be the only one who can save humanity.",
+      "language": "English, Japanese",
+      "country": "United States, Japan",
+      "awards": "7 wins & 31 nominations",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZDFmYTM4NzAtNWM0ZC00MGJlLWEyYzQtYzA3ZTFiNzc1YjllXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "6.4/10"
+          "source": "Internet Movie Database",
+          "value": "6.4/10"
         },
         {
-          "Source": "Rotten Tomatoes",
-          "Value": "76%"
+          "source": "Rotten Tomatoes",
+          "value": "76%"
         },
         {
-          "Source": "Metacritic",
-          "Value": "62/100"
+          "source": "Metacritic",
+          "value": "62/100"
         }
       ],
-      "Metascore": "62",
+      "metascore": "62",
       "imdbRating": "6.4",
       "imdbVotes": "435,188",
-      "Type": "movie",
+      "type": "movie",
       "DVD": "26 Aug 2014",
-      "BoxOffice": "$200,676,069",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True",
+      "boxOffice": "$200,676,069",
+      "production": "N/A",
+      "website": "N/A",
+      "response": "True",
       "favorite": false
     },
     {
-      "movieId": "5dff23f7-8fdf-494c-8573-bccf164a8f47",
-      "Title": "Spirited Away",
-      "Year": "2001",
-      "Rated": "PG",
-      "Released": "28 Mar 2003",
-      "Runtime": "125 min",
-      "Genre": "Animation, Adventure, Family",
-      "Director": "Hayao Miyazaki",
-      "Writer": "Hayao Miyazaki",
-      "Actors": "Daveigh Chase, Suzanne Pleshette, Miyu Irino",
-      "Plot": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches and spirits, a world where humans are changed into beasts.",
-      "Language": "Japanese",
-      "Country": "Japan",
-      "Awards": "Won 1 Oscar. 58 wins & 31 nominations total",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-      "Ratings": [
+      "title": "Spirited Away",
+      "year": "2001",
+      "rated": "PG",
+      "released": "28 Mar 2003",
+      "runtime": "125 min",
+      "genre": "Animation, Adventure, Family",
+      "director": "Hayao Miyazaki",
+      "writer": "Hayao Miyazaki",
+      "actors": "Daveigh Chase, Suzanne Pleshette, Miyu Irino",
+      "plot": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches and spirits, a world where humans are changed into beasts.",
+      "language": "Japanese",
+      "country": "Japan",
+      "awards": "Won 1 Oscar. 58 wins & 31 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "8.6/10"
+          "source": "Internet Movie Database",
+          "value": "8.6/10"
         },
         {
-          "Source": "Rotten Tomatoes",
-          "Value": "96%"
+          "source": "Rotten Tomatoes",
+          "value": "96%"
         },
         {
-          "Source": "Metacritic",
-          "Value": "96/100"
+          "source": "Metacritic",
+          "value": "96/100"
         }
       ],
-      "Metascore": "96",
+      "metascore": "96",
       "imdbRating": "8.6",
       "imdbVotes": "835,536",
-      "Type": "movie",
+      "type": "movie",
       "DVD": "19 Dec 2019",
-      "BoxOffice": "$15,205,725",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True",
+      "boxOffice": "$15,205,725",
+      "production": "N/A",
+      "website": "N/A",
+      "response": "True",
       "favorite": false
     },
     {
-      "movieId": "7787f4c9-94f9-4b14-97db-0bf0e71ed039",
-      "Title": "The Breakfast Club",
-      "Year": "1985",
-      "Rated": "R",
-      "Released": "15 Feb 1985",
-      "Runtime": "97 min",
-      "Genre": "Comedy, Drama",
-      "Director": "John Hughes",
-      "Writer": "John Hughes",
-      "Actors": "Emilio Estevez, Judd Nelson, Molly Ringwald",
-      "Plot": "Five high school students meet in Saturday detention and discover how they have a great deal more in common than they thought.",
-      "Language": "English",
-      "Country": "United States",
-      "Awards": "4 wins",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BOTM5N2ZmZTMtNjlmOS00YzlkLTk3YjEtNTU1ZmQ5OTdhODZhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-      "Ratings": [
+      "title": "The Breakfast Club",
+      "year": "1985",
+      "rated": "R",
+      "released": "15 Feb 1985",
+      "runtime": "97 min",
+      "genre": "Comedy, Drama",
+      "director": "John Hughes",
+      "writer": "John Hughes",
+      "actors": "Emilio Estevez, Judd Nelson, Molly Ringwald",
+      "plot": "Five high school students meet in Saturday detention and discover how they have a great deal more in common than they thought.",
+      "language": "English",
+      "country": "United States",
+      "awards": "4 wins",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTM5N2ZmZTMtNjlmOS00YzlkLTk3YjEtNTU1ZmQ5OTdhODZhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "7.8/10"
+          "source": "Internet Movie Database",
+          "value": "7.8/10"
         },
         {
-          "Source": "Rotten Tomatoes",
-          "Value": "89%"
+          "source": "Rotten Tomatoes",
+          "value": "89%"
         },
         {
-          "Source": "Metacritic",
-          "Value": "66/100"
+          "source": "Metacritic",
+          "value": "66/100"
         }
       ],
-      "Metascore": "66",
+      "metascore": "66",
       "imdbRating": "7.8",
       "imdbVotes": "433,376",
-      "Type": "movie",
+      "type": "movie",
       "DVD": "15 Jun 2012",
-      "BoxOffice": "$45,875,171",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True",
+      "boxOffice": "$45,875,171",
+      "production": "N/A",
+      "website": "N/A",
+      "response": "True",
       "favorite": false
     },
     {
-      "movieId": "bb3c0bb1-392b-4088-9ae9-3ff1847cbe01",
-      "Title": "Home Alone",
-      "Year": "1990",
-      "Rated": "PG",
-      "Released": "16 Nov 1990",
-      "Runtime": "103 min",
-      "Genre": "Comedy, Family",
-      "Director": "Chris Columbus",
-      "Writer": "John Hughes",
-      "Actors": "Macaulay Culkin, Joe Pesci, Daniel Stern",
-      "Plot": "An eight-year-old troublemaker, mistakenly left home alone, must defend his home against a pair of burglars on Christmas Eve.",
-      "Language": "English, French",
-      "Country": "United States",
-      "Awards": "Nominated for 2 Oscars. 12 wins & 7 nominations total",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMzFkM2YwOTQtYzk2Mi00N2VlLWE3NTItN2YwNDg1YmY0ZDNmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-      "Ratings": [
+      "title": "Home Alone",
+      "year": "1990",
+      "rated": "PG",
+      "released": "16 Nov 1990",
+      "runtime": "103 min",
+      "genre": "Comedy, Family",
+      "director": "Chris Columbus",
+      "writer": "John Hughes",
+      "actors": "Macaulay Culkin, Joe Pesci, Daniel Stern",
+      "plot": "An eight-year-old troublemaker, mistakenly left home alone, must defend his home against a pair of burglars on Christmas Eve.",
+      "language": "English, French",
+      "country": "United States",
+      "awards": "Nominated for 2 Oscars. 12 wins & 7 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzFkM2YwOTQtYzk2Mi00N2VlLWE3NTItN2YwNDg1YmY0ZDNmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "7.7/10"
+          "source": "Internet Movie Database",
+          "value": "7.7/10"
         },
         {
-          "Source": "Rotten Tomatoes",
-          "Value": "66%"
+          "source": "Rotten Tomatoes",
+          "value": "66%"
         },
         {
-          "Source": "Metacritic",
-          "Value": "63/100"
+          "source": "Metacritic",
+          "value": "63/100"
         }
       ],
-      "Metascore": "63",
+      "metascore": "63",
       "imdbRating": "7.7",
       "imdbVotes": "647,310",
-      "Type": "movie",
+      "type": "movie",
       "DVD": "01 Mar 2013",
-      "BoxOffice": "$285,761,243",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True",
+      "boxOffice": "$285,761,243",
+      "production": "N/A",
+      "website": "N/A",
+      "response": "True",
       "favorite": false
     },
     {
-      "movieId": "4961b172-89d9-4149-ba33-92b2c038a1ac",
-      "Title": "The Matrix",
-      "Year": "1999",
-      "Rated": "R",
-      "Released": "31 Mar 1999",
-      "Runtime": "136 min",
-      "Genre": "Action, Sci-Fi",
-      "Director": "Lana Wachowski, Lilly Wachowski",
-      "Writer": "Lilly Wachowski, Lana Wachowski",
-      "Actors": "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss",
-      "Plot": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
-      "Language": "English",
-      "Country": "United States, Australia",
-      "Awards": "Won 4 Oscars. 42 wins & 52 nominations total",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
-      "Ratings": [
+      "title": "The Matrix",
+      "year": "1999",
+      "rated": "R",
+      "released": "31 Mar 1999",
+      "runtime": "136 min",
+      "genre": "Action, Sci-Fi",
+      "director": "Lana Wachowski, Lilly Wachowski",
+      "writer": "Lilly Wachowski, Lana Wachowski",
+      "actors": "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss",
+      "plot": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+      "language": "English",
+      "country": "United States, Australia",
+      "awards": "Won 4 Oscars. 42 wins & 52 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "8.7/10"
+          "source": "Internet Movie Database",
+          "value": "8.7/10"
         },
         {
-          "Source": "Rotten Tomatoes",
-          "Value": "83%"
+          "source": "Rotten Tomatoes",
+          "value": "83%"
         },
         {
-          "Source": "Metacritic",
-          "Value": "73/100"
+          "source": "Metacritic",
+          "value": "73/100"
         }
       ],
-      "Metascore": "73",
+      "metascore": "73",
       "imdbRating": "8.7",
       "imdbVotes": "2,034,744",
-      "Type": "movie",
+      "type": "movie",
       "DVD": "01 Jan 2009",
-      "BoxOffice": "$172,076,928",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True",
+      "boxOffice": "$172,076,928",
+      "production": "N/A",
+      "website": "N/A",
+      "response": "True",
       "favorite": false
     },
     {
-      "movieId": "bbc237f2-773b-4852-8b8d-21c0c2b9def9",
-      "Title": "Back to the Future",
-      "Year": "1985",
-      "Rated": "PG",
-      "Released": "03 Jul 1985",
-      "Runtime": "116 min",
-      "Genre": "Adventure, Comedy, Sci-Fi",
-      "Director": "Robert Zemeckis",
-      "Writer": "Robert Zemeckis, Bob Gale",
-      "Actors": "Michael J. Fox, Christopher Lloyd, Lea Thompson",
-      "Plot": "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
-      "Language": "English",
-      "Country": "United States",
-      "Awards": "Won 1 Oscar. 23 wins & 25 nominations total",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-      "Ratings": [
+      "title": "Back to the Future",
+      "year": "1985",
+      "rated": "PG",
+      "released": "03 Jul 1985",
+      "runtime": "116 min",
+      "genre": "Adventure, Comedy, Sci-Fi",
+      "director": "Robert Zemeckis",
+      "writer": "Robert Zemeckis, Bob Gale",
+      "actors": "Michael J. Fox, Christopher Lloyd, Lea Thompson",
+      "plot": "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
+      "language": "English",
+      "country": "United States",
+      "awards": "Won 1 Oscar. 23 wins & 25 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "8.5/10"
+          "source": "Internet Movie Database",
+          "value": "8.5/10"
         },
         {
-          "Source": "Rotten Tomatoes",
-          "Value": "93%"
+          "source": "Rotten Tomatoes",
+          "value": "93%"
         },
         {
-          "Source": "Metacritic",
-          "Value": "87/100"
+          "source": "Metacritic",
+          "value": "87/100"
         }
       ],
-      "Metascore": "87",
+      "metascore": "87",
       "imdbRating": "8.5",
       "imdbVotes": "1,291,396",
-      "Type": "movie",
+      "type": "movie",
       "DVD": "08 Aug 2013",
-      "BoxOffice": "$214,077,472",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True",
+      "boxOffice": "$214,077,472",
+      "production": "N/A",
+      "website": "N/A",
+      "response": "True",
       "favorite": false
     },
     {
-      "movieId": "0c70cbef-2314-4bf2-add5-f4bd1414d3d8",
-      "Title": "La La Land",
-      "Year": "2016",
-      "Rated": "PG-13",
-      "Released": "25 Dec 2016",
-      "Runtime": "128 min",
-      "Genre": "Comedy, Drama, Music",
-      "Director": "Damien Chazelle",
-      "Writer": "Damien Chazelle",
-      "Actors": "Ryan Gosling, Emma Stone, Rosemarie DeWitt",
-      "Plot": "While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.",
-      "Language": "English, Cantonese",
-      "Country": "United States, Hong Kong",
-      "Awards": "Won 6 Oscars. 241 wins & 307 nominations total",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_SX300.jpg",
-      "Ratings": [
+      "title": "La La Land",
+      "year": "2016",
+      "rated": "PG-13",
+      "released": "25 Dec 2016",
+      "runtime": "128 min",
+      "genre": "Comedy, Drama, Music",
+      "director": "Damien Chazelle",
+      "writer": "Damien Chazelle",
+      "actors": "Ryan Gosling, Emma Stone, Rosemarie DeWitt",
+      "plot": "While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.",
+      "language": "English, Cantonese",
+      "country": "United States, Hong Kong",
+      "awards": "Won 6 Oscars. 241 wins & 307 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "8.0/10"
+          "source": "Internet Movie Database",
+          "value": "8.0/10"
         },
         {
-          "Source": "Rotten Tomatoes",
-          "Value": "91%"
+          "source": "Rotten Tomatoes",
+          "value": "91%"
         },
         {
-          "Source": "Metacritic",
-          "Value": "94/100"
+          "source": "Metacritic",
+          "value": "94/100"
         }
       ],
-      "Metascore": "94",
+      "metascore": "94",
       "imdbRating": "8.0",
       "imdbVotes": "656,387",
-      "Type": "movie",
+      "type": "movie",
       "DVD": "11 Apr 2017",
-      "BoxOffice": "$151,101,803",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True",
+      "boxOffice": "$151,101,803",
+      "production": "N/A",
+      "website": "N/A",
+      "response": "True",
       "favorite": false
     },
     {
-      "movieId": "76710f76-a05b-4a4c-8e8e-d1dfecb88b68",
-      "Title": "Jurassic Park",
-      "Year": "1993",
-      "Rated": "PG-13",
-      "Released": "11 Jun 1993",
-      "Runtime": "127 min",
-      "Genre": "Action, Adventure, Sci-Fi",
-      "Director": "Steven Spielberg",
-      "Writer": "Michael Crichton, David Koepp",
-      "Actors": "Sam Neill, Laura Dern, Jeff Goldblum",
-      "Plot": "A pragmatic paleontologist touring an almost complete theme park on an island in Central America is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.",
-      "Language": "English, Spanish",
-      "Country": "United States",
-      "Awards": "Won 3 Oscars. 44 wins & 27 nominations total",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SX300.jpg",
-      "Ratings": [
+      "title": "Jurassic Park",
+      "year": "1993",
+      "rated": "PG-13",
+      "released": "11 Jun 1993",
+      "runtime": "127 min",
+      "genre": "Action, Adventure, Sci-Fi",
+      "director": "Steven Spielberg",
+      "writer": "Michael Crichton, David Koepp",
+      "actors": "Sam Neill, Laura Dern, Jeff Goldblum",
+      "plot": "A pragmatic paleontologist touring an almost complete theme park on an island in Central America is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.",
+      "language": "English, Spanish",
+      "country": "United States",
+      "awards": "Won 3 Oscars. 44 wins & 27 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "8.2/10"
+          "source": "Internet Movie Database",
+          "value": "8.2/10"
         },
         {
-          "Source": "Rotten Tomatoes",
-          "Value": "91%"
+          "source": "Rotten Tomatoes",
+          "value": "91%"
         },
         {
-          "Source": "Metacritic",
-          "Value": "68/100"
+          "source": "Metacritic",
+          "value": "68/100"
         }
       ],
-      "Metascore": "68",
+      "metascore": "68",
       "imdbRating": "8.2",
       "imdbVotes": "1,055,630",
-      "Type": "movie",
+      "type": "movie",
       "DVD": "18 May 2015",
-      "BoxOffice": "$407,185,075",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True",
+      "boxOffice": "$407,185,075",
+      "production": "N/A",
+      "website": "N/A",
+      "response": "True",
       "favorite": false
     },
     {
-      "movieId": "a03f703b-2ac7-4d9b-9fe0-374e8d8fe6d7",
-      "Title": "Matilda",
-      "Year": "1996",
-      "Rated": "PG",
-      "Released": "02 Aug 1996",
-      "Runtime": "102 min",
-      "Genre": "Comedy, Family, Fantasy",
-      "Director": "Danny DeVito",
-      "Writer": "Roald Dahl, Nicholas Kazan, Robin Swicord",
-      "Actors": "Danny DeVito, Rhea Perlman, Mara Wilson",
-      "Plot": "A girl gifted with a keen intellect and psychic powers uses both to deal with her crude, distant family and free her kind teacher from their sadistic headmistress.",
-      "Language": "English",
-      "Country": "United States",
-      "Awards": "3 wins & 7 nominations",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMWE2YTBhYzItZDAxZS00Mjc3LWIxNmYtMzljZjIxMGE1NmY2XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
-      "Ratings": [
+      "title": "Matilda",
+      "year": "1996",
+      "rated": "PG",
+      "released": "02 Aug 1996",
+      "runtime": "102 min",
+      "genre": "Comedy, Family, Fantasy",
+      "director": "Danny DeVito",
+      "writer": "Roald Dahl, Nicholas Kazan, Robin Swicord",
+      "actors": "Danny DeVito, Rhea Perlman, Mara Wilson",
+      "plot": "A girl gifted with a keen intellect and psychic powers uses both to deal with her crude, distant family and free her kind teacher from their sadistic headmistress.",
+      "language": "English",
+      "country": "United States",
+      "awards": "3 wins & 7 nominations",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMWE2YTBhYzItZDAxZS00Mjc3LWIxNmYtMzljZjIxMGE1NmY2XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "7.0/10"
+          "source": "Internet Movie Database",
+          "value": "7.0/10"
         },
         {
-          "Source": "Rotten Tomatoes",
-          "Value": "92%"
+          "source": "Rotten Tomatoes",
+          "value": "92%"
         },
         {
-          "Source": "Metacritic",
-          "Value": "72/100"
+          "source": "Metacritic",
+          "value": "72/100"
         }
       ],
-      "Metascore": "72",
+      "metascore": "72",
       "imdbRating": "7.0",
       "imdbVotes": "172,269",
-      "Type": "movie",
+      "type": "movie",
       "DVD": "16 Apr 2012",
-      "BoxOffice": "$33,459,416",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True",
+      "boxOffice": "$33,459,416",
+      "production": "N/A",
+      "website": "N/A",
+      "response": "True",
       "favorite": false
     },
     {
-      "movieId": "27202a00-df69-47a5-974c-5dd95edd5d0e",
-      "Title": "Footloose",
-      "Year": "1984",
-      "Rated": "PG",
-      "Released": "17 Feb 1984",
-      "Runtime": "107 min",
-      "Genre": "Drama, Music, Romance",
-      "Director": "Herbert Ross",
-      "Writer": "Dean Pitchford",
-      "Actors": "Kevin Bacon, Lori Singer, John Lithgow",
-      "Plot": "A city teenager moves to a small town where rock music and dancing have been banned, and his rebellious spirit shakes up the populace.",
-      "Language": "English",
-      "Country": "United States",
-      "Awards": "Nominated for 2 Oscars. 2 wins & 6 nominations total",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMGZjZWRlNjYtMDM3Ny00N2M4LWFjZDYtYmM3NWZmMDUwYzUyXkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_SX300.jpg",
-      "Ratings": [
+      "title": "Footloose",
+      "year": "1984",
+      "rated": "PG",
+      "released": "17 Feb 1984",
+      "runtime": "107 min",
+      "genre": "Drama, Music, Romance",
+      "director": "Herbert Ross",
+      "writer": "Dean Pitchford",
+      "actors": "Kevin Bacon, Lori Singer, John Lithgow",
+      "plot": "A city teenager moves to a small town where rock music and dancing have been banned, and his rebellious spirit shakes up the populace.",
+      "language": "English",
+      "country": "United States",
+      "awards": "Nominated for 2 Oscars. 2 wins & 6 nominations total",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMGZjZWRlNjYtMDM3Ny00N2M4LWFjZDYtYmM3NWZmMDUwYzUyXkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "6.6/10"
+          "source": "Internet Movie Database",
+          "value": "6.6/10"
         },
         {
-          "Source": "Rotten Tomatoes",
-          "Value": "55%"
+          "source": "Rotten Tomatoes",
+          "value": "55%"
         },
         {
-          "Source": "Metacritic",
-          "Value": "42/100"
+          "source": "Metacritic",
+          "value": "42/100"
         }
       ],
-      "Metascore": "42",
+      "metascore": "42",
       "imdbRating": "6.6",
       "imdbVotes": "89,891",
-      "Type": "movie",
+      "type": "movie",
       "DVD": "01 Aug 2013",
-      "BoxOffice": "$80,035,402",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True",
+      "boxOffice": "$80,035,402",
+      "production": "N/A",
+      "website": "N/A",
+      "response": "True",
       "favorite": false
     }
   ],
@@ -823,7 +803,7 @@
   "favorites": [
     {
       "userId": "08150d25-6607-4d64-a948-08da7b92579d",
-      "movieId": "76710f76-a05b-4a4c-8e8e-d1dfecb88b68"
+      "movieId": "86853328-49b9-412a-b890-5769d8d62334"
     }
   ]
 }
