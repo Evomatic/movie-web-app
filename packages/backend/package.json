@@ -10,6 +10,8 @@
   "license": "UNLICENSED",
   "scripts": {
     "build": "nest build",
+    "docker:migration": "docker-compose exec backend npm run start:migration",
+    "docker:seed": "docker-compose exec backend npm run start:seed ",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
     "start:dev": "nest start --watch",
