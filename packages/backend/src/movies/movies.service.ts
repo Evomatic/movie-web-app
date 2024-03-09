@@ -9,7 +9,7 @@ export class MoviesService {
     return this.prisma.movie.findMany();
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} movie`;
+  findOne(movieId: string) {
+    return this.prisma.movie.findUnique({ where: { movieId } });
   }
 }
