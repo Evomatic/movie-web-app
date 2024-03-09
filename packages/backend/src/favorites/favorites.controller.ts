@@ -6,14 +6,9 @@ import { CreateFavoriteDto } from './dto/create-favorite.dto';
 export class FavoritesController {
   constructor(private readonly favoritesService: FavoritesService) {}
 
-  @Get()
-  findAll() {
-    return this.favoritesService.findAll();
-  }
-
-  @Get(':id')
-  findOne(@Param('id') id: string) {
-    return this.favoritesService.findOne(+id);
+  @Get(':userId')
+  findAll(@Param('userId') userId: string) {
+    return this.favoritesService.findAll(userId);
   }
 
   @Post()
@@ -21,8 +16,8 @@ export class FavoritesController {
     return this.favoritesService.create(createFavoriteDto);
   }
 
-  @Delete(':id')
-  remove(@Param('id') id: string) {
-    return this.favoritesService.remove(+id);
+  @Delete(':userId/movies/:movieId')
+  remove(@Param('userId') userId: string, @Param('movieId') movieId: string) {
+    return this.favoritesService.remove(userId, movieId);
   }
 }
