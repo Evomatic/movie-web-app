@@ -6,6 +6,7 @@ import { PrismaModule } from './prisma/prisma.module';
 import { MoviesModule } from './movies/movies.module';
 import { UsersModule } from './users/users.module';
 import { FavoritesModule } from './favorites/favorites.module';
+import { AuthModule } from './auth/auth.module';
 
 @Module({
   imports: [
@@ -14,6 +15,7 @@ import { FavoritesModule } from './favorites/favorites.module';
     MoviesModule,
     UsersModule,
     FavoritesModule,
+    AuthModule,
   ],
   controllers: [AppController],
   providers: [AppService],
