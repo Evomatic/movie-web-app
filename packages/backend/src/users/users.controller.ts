@@ -23,14 +23,6 @@ export class UsersController {
     return new UserEntity(await this.usersService.findOne(email));
   }
 
-  @Get(':userId')
-  @UseGuards(JwtAuthGuard)
-  @ApiBearerAuth()
-  @ApiOkResponse({ type: UserEntity })
-  async findOneById(@Param('userId') userId: string) {
-    return new UserEntity(await this.usersService.findOneById(userId));
-  }
-
   @Post()
   @ApiCreatedResponse({ type: UserEntity })
   async create(@Body() createUserDto: CreateUserDto) {

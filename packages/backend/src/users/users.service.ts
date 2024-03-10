@@ -16,10 +16,4 @@ export class UsersService {
       include: { favorites: true },
     });
   }
-
-  findOneById(userId: string) {
-    return this.prisma.user.findUnique({
-      where: { userId },
-    });
-  }
 }

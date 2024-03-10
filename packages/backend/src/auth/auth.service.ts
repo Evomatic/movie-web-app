@@ -34,7 +34,7 @@ export class AuthService {
 
     // Step 3: Generate a JWT containing the user's ID and return it
     return {
-      accessToken: this.jwtService.sign({ userId: user.userId }),
+      accessToken: this.jwtService.sign({ email: user.email }),
     };
   }
 }
