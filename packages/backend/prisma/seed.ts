@@ -2,7 +2,7 @@ import { PrismaClient } from '@prisma/client';
 import * as db from '../src/database/db.json';
 const prisma = new PrismaClient();
 
-type MoviesData = {
+type MovieData = {
   title: string;
   year: string;
   rated: string;
@@ -31,7 +31,7 @@ type MoviesData = {
 };
 
 async function main() {
-  const moviesData = db.movies as MoviesData[];
+  const moviesData = db.movies as MovieData[];
   for (const movieData of moviesData) {
     await prisma.movie.create({
       data: {

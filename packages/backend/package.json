@@ -10,6 +10,8 @@
   "license": "UNLICENSED",
   "scripts": {
     "build": "nest build",
+    "docker:migration": "docker-compose exec backend npm run start:migration",
+    "docker:seed": "docker-compose exec backend npm run start:seed ",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
     "start:dev": "nest start --watch",
@@ -29,9 +31,11 @@
     "@nestjs/config": "^3.2.0",
     "@nestjs/core": "^10.0.0",
     "@nestjs/platform-express": "^10.0.0",
+    "@nestjs/swagger": "^7.3.0",
     "@prisma/client": "^5.10.2",
     "reflect-metadata": "^0.2.0",
-    "rxjs": "^7.8.1"
+    "rxjs": "^7.8.1",
+    "swagger-ui-express": "^5.0.0"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",
