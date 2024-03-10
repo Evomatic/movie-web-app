@@ -1,14 +1,14 @@
 -- CreateTable
-CREATE TABLE "Users" (
+CREATE TABLE "user" (
     "userId" UUID NOT NULL DEFAULT gen_random_uuid(),
     "email" TEXT NOT NULL,
     "password" TEXT NOT NULL,
 
-    CONSTRAINT "Users_pkey" PRIMARY KEY ("userId")
+    CONSTRAINT "user_pkey" PRIMARY KEY ("userId")
 );
 
 -- CreateTable
-CREATE TABLE "Movies" (
+CREATE TABLE "movie" (
     "movieId" UUID NOT NULL DEFAULT gen_random_uuid(),
     "title" TEXT NOT NULL,
     "year" TEXT NOT NULL,
@@ -27,6 +27,7 @@ CREATE TABLE "Movies" (
     "ratings" JSONB[],
     "metascore" TEXT NOT NULL,
     "imdbRating" TEXT NOT NULL,
+    "imdbVotes" TEXT NOT NULL,
     "type" TEXT NOT NULL,
     "dvd" TEXT NOT NULL,
     "boxOffice" TEXT NOT NULL,
@@ -35,25 +36,25 @@ CREATE TABLE "Movies" (
     "response" TEXT NOT NULL,
     "favorite" BOOLEAN NOT NULL,
 
-    CONSTRAINT "Movies_pkey" PRIMARY KEY ("movieId")
+    CONSTRAINT "movie_pkey" PRIMARY KEY ("movieId")
 );
 
 -- CreateTable
-CREATE TABLE "Favorites" (
+CREATE TABLE "favorite" (
     "userId" UUID NOT NULL,
     "movieId" UUID NOT NULL,
 
-    CONSTRAINT "Favorites_pkey" PRIMARY KEY ("userId","movieId")
+    CONSTRAINT "favorite_pkey" PRIMARY KEY ("userId","movieId")
 );
 
 -- CreateIndex
-CREATE UNIQUE INDEX "Users_email_key" ON "Users"("email");
+CREATE UNIQUE INDEX "user_email_key" ON "user"("email");
 
 -- CreateIndex
-CREATE UNIQUE INDEX "Users_password_key" ON "Users"("password");
+CREATE UNIQUE INDEX "user_password_key" ON "user"("password");
 
 -- AddForeignKey
-ALTER TABLE "Favorites" ADD CONSTRAINT "Favorites_userId_fkey" FOREIGN KEY ("userId") REFERENCES "Users"("userId") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "favorite" ADD CONSTRAINT "favorite_movieId_fkey" FOREIGN KEY ("movieId") REFERENCES "movie"("movieId") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "Favorites" ADD CONSTRAINT "Favorites_movieId_fkey" FOREIGN KEY ("movieId") REFERENCES "Movies"("movieId") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "favorite" ADD CONSTRAINT "favorite_userId_fkey" FOREIGN KEY ("userId") REFERENCES "user"("userId") ON DELETE RESTRICT ON UPDATE CASCADE;
