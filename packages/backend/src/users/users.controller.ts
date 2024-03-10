@@ -11,13 +11,13 @@ export class UsersController {
 
   @Get(':email')
   @ApiOkResponse({ type: UserEntity })
-  findOne(@Param('email') email: string) {
-    return this.usersService.findOne(email);
+  async findOne(@Param('email') email: string) {
+    return new UserEntity(await this.usersService.findOne(email));
   }
 
   @Post()
   @ApiCreatedResponse({ type: UserEntity })
-  create(@Body() createUserDto: CreateUserDto) {
-    return this.usersService.create(createUserDto);
+  async create(@Body() createUserDto: CreateUserDto) {
+    return new UserEntity(await this.usersService.create(createUserDto));
   }
 }

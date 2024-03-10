@@ -31,9 +31,18 @@ type MovieData = {
 };
 
 async function main() {
+  // create dummy user
+  const user1 = await prisma.user.create({
+    data: {
+      email: 'evantrujillo30@gmail.com',
+      password: 'evan123',
+    },
+  });
+
+  // create movie data
   const moviesData = db.movies as MovieData[];
   for (const movieData of moviesData) {
-    await prisma.movie.create({
+    const movie = await prisma.movie.create({
       data: {
         title: movieData.title,
         year: movieData.year,
@@ -61,6 +70,15 @@ async function main() {
         favorite: movieData.favorite,
       },
     });
+    // create favorites for dummy user
+    if (movieData.title === 'Matilda' || movieData.title === 'Footloose') {
+      await prisma.favorite.create({
+        data: {
+          userId: user1.userId,
+          movieId: movie.movieId,
+        },
+      });
+    }
   }
 
   console.log('Data seeding completed.');
