@@ -1,9 +1,14 @@
+Movie Web App 🎬
+
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 <div align="center">
   <h3 align="center">Movie web app</h3>
 
   <p align="center">
-    A movie web app for keeping track of all your favorite movies.
+A Full-Stack Movie Application Built in 5 Days
+This project was a personal challenge to test how quickly I could build a fully functional full-stack web application under sprint conditions.
+The goal was to push my development speed while ensuring solid functionality, authentication, and backend integration. Styling was not the focus here.
+
   </p>
 </div>
 
